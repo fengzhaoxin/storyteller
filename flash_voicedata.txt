@@ -1,0 +1,2 @@
+source flash_voicedata.sh ./components/esp-tts/esp_tts_chinese/esp_tts_voice_data_xiaole.dat  /dev/ttyUSB0
+

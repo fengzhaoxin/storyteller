@@ -1,0 +1,23 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/feng/文档/开发/esp/projects/story_teller_local/build/bootloader",
+    "config_file":        "/home/feng/文档/开发/esp/projects/story_teller_local/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.4-278-g3c8bc2213c-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "min_rev":            "0",
+    "max_rev":            "399",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/efuse/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp32/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_common/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_hw_support/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_system/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/freertos/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/hal/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/log/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/newlib/Kconfig;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/bootloader/Kconfig.projbuild;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_rom/Kconfig.projbuild;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esptool_py/Kconfig.projbuild;/home/feng/文档/开发/esp/esp-adf/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/bootloader", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/bootloader_support", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/efuse", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp32", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_common", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_hw_support", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_rom", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esp_system", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/esptool_py", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/freertos", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/hal", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/log", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/bootloader/subproject/main", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/newlib", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/partition_table", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/soc", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/spi_flash", "/home/feng/文档/开发/esp/esp-adf/esp-idf/components/xtensa", "" ]
+}

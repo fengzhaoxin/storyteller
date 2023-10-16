@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "c_wifi_setting.h": "c",
+        "string.h": "c",
+        "c_clock.h": "c"
+    }
+}
